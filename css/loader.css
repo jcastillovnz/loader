@@ -15,14 +15,21 @@ height: 30px;
 }
 
 
+@media  screen and  (max-width: 700px) {
+.loader-lg {
+
+margin-top: 70%;
+background-color: red;
+}
+}
+
 
 
 
 
 .loader-lg {
-
-  width: 80px;
-  height: 80px;
+width: 80px;
+height: 80px;
 margin-top: 20%;
 margin-left: 45%;
 border: 7px solid #f3f3f3;
@@ -32,22 +39,22 @@ position: fixed;
 display: inline-block;
 -webkit-animation: spin 2s linear infinite; /* Safari */
 animation: spin 2s linear infinite;
+}
+
+
+
+
+
+body{
 
 
 
 }
 
 
-
-
 .loader {
 
-
-
   z-index: 102;
-
-
-
 
 }
 
