@@ -3,6 +3,7 @@
 width: 30px;
 height: 30px;
 
+
   border: 5px solid #f3f3f3;
   border-radius: 50%;
   border-top: 5px solid #3498db;
@@ -10,33 +11,14 @@ height: 30px;
   -webkit-animation: spin 0.600s linear infinite; /* Safari */
   animation: spin 0.600s linear infinite;
 
-
-
 }
-
-
-@media  screen and  (max-width: 700px) {
-  body
-  {
-
-    background-color: red;
-  }
-.loader-lg {
-
-margin-top: 70%;
-background-color: red;
-}
-}
-
-
 
 
 
 .loader-lg {
 width: 80px;
 height: 80px;
-margin-top: 20%;
-margin-left: 45%;
+
 border: 7px solid #f3f3f3;
 border-radius: 50%;
 border-top: 7px solid #3498db;
@@ -47,26 +29,11 @@ animation: spin 2s linear infinite;
 }
 
 
-
-
-
-body{
-
-
-
-}
-
-
 .loader {
 
-  z-index: 102;
+  z-index: 11;
 
 }
-
-
-
-
-
 
 
 /* Safari */
@@ -79,7 +46,5 @@ body{
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
-
-
 
 /*LOADER*/
